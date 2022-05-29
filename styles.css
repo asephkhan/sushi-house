@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+/*     width: 100%; */
+}
+
+main{
+  border: 1px solid white;
+}
+
+/* Navbar */
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.left-menu{
+    display: flex;
+   list-style: none;
+}
+
+.left-menu li{
+    padding: 30px;
+}
+
+.right-menu{
+    display: flex;
+    list-style: none;
+}
+
+.right-menu li{
+    padding: 30px;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo h1{
+    font-weight: lighter;
+ 
+}
+
+
+/* hero Section starts */
+#section-hero{
+   /*  background-image: url('./images/mahmoud-fawzy-n1DePkKznLY-unsplash.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.hero-left-side{
+    width: 50vw;
+}
+
+.hero-img-1{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-img-2{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-img-3{
+    width: 200px;
+    height: 200px;
+}
+
+/* about section starts */
+#about{
+display: flex;
+justify-content: space-between;
+overflow-x: scroll;
+}
+.about-card{
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+   height: 680px;
+   justify-content: space-around;
+}
+.about-img{
+    width: 350px;
+    height: 480px;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    padding: 0 120px;
+
+}
+/* menu section starts */
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.menu-card{
+    height: 300px;
+    width: 220px;
+   
+    text-align: center;
+    margin: 30px 50px;
+}
+.menu-card-img{
+    width: 180px;
+    height: 200px;
+}
+
+/* contact section starts */
+
+#contact{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* footer starts */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    height: 20vh;
+
+}
+footer div{
+    padding-top: 20px;
+}
+
+
+.footer ul li{
+list-style: none;
+text-decoration: none;
+padding-top: 3px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
