@@ -1,26 +1,35 @@
-const aboutSlide = document.querySelector('.about-slide');
+const track = document.querySelector(".carousel-track");
+const slides = Array.from(track.children);
+const prevBtn = document.querySelector("#prev-btn");
+const nextBtn = document.querySelector("#next-btn");
 
-const aboutCards = document.querySelectorAll('.about-card') ;
+const slidewidth = slides[0].getBoundingClientRect().width;
 
-/* Buttons */
+// arrange the slides next to one another
+const setSlidePosition = (slide, index) => {
+  slide.style.left = slidewidth * index + "px";
+};
+slides.forEach(setSlidePosition);
 
-const prevBtn = document.querySelector('#prev-btn');
-const nextBtn = document.querySelector('#next-btn');
+const moveToSlide = (track, currentSlide, targetSlide) => {
+    track.style.transform = 'translateX(-' + targetSlide.style.left;
+    currentSlide.classList.remove('current-slide');
+    targetSlide.classList.add('current-slide'); 
+}
 
-// Counter
+// when i click left, move slides to the left.
+prevBtn.addEventListener('click', e => {
+    const currentSlide = track.querySelector('.current-slide');
+    const prevSlide = currentSlide.previousElementSibling;
 
-let counter = 1;
+    moveToSlide(track, currentSlide, prevSlide)
+});
 
-const size = aboutCards[1].clientwidth;
+// when I click right, move slides to the right.
+nextBtn.addEventListener("click", (e) => {
+  const currentSlide = track.querySelector(".current-slide");
+  const nextSlide = currentSlide.nextElementSibling;
+ 
 
-aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-
-// button listners
-
-nextBtn.addEventListener('click', ()=>{
-
-     aboutSlide.style.transition = 
-   /*  counter++; */
-   /*  aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'; */
-    console.log(counter)
-})
+  moveToSlide(track, currentSlide, nextSlide)
+});

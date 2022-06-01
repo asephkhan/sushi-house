@@ -1,11 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
 main {
   border: 1px solid white;
 }
@@ -100,7 +99,7 @@ nav {
 }
 
 .hero-left-side h1 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
@@ -108,7 +107,7 @@ nav {
 }
 
 .hero-left-side h4 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -117,7 +116,7 @@ nav {
 }
 
 .hero-left-side p {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -142,22 +141,40 @@ nav {
 
 /* about section starts */
 
-#about{
-  border: 5px solid black;
+#about {
+  height: 600px;
+  width: 70%;
+  margin: 0 auto;
+  
+}
+.carousel-container {
+ 
+padding-top: 20px ;
+height: 80%;
+overflow-x: hidden;
 
 }
-.about-slide {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  
-  /* overflow-x: scroll; */
+
+.carousel-slide{
+  position: absolute;
+ 
 }
+
+.carousel-track{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  transition: transform 250ms ease-in;
+  
+
+}
+
 .about-card {
   display: flex;
   align-items: center;
-  padding: 0 200px;
-  height: 600px;
+  height: 100%;
+  width: 100%;
   justify-content: space-around;
 }
 .about-img {
@@ -175,7 +192,7 @@ nav {
 }
 
 .about-info-text {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgb(100, 0, 0);
   padding-top: 20px;
 }
@@ -183,6 +200,16 @@ nav {
 .about-info-header {
   color: rgb(0, 0, 0);
 }
+
+.carousel-button{
+  transform: translateX(35vw);
+}
+
+#prev-btn{
+  margin-top: 20px;
+}
+
+
 
 /* menu section starts */
 
