@@ -258,6 +258,11 @@ nav {
   border-radius: 5px;
 }
 
+.menu-card:hover{
+  background-color: rgb(100, 0, 0);
+  opacity: 0.7;
+}
+
 .menu-card-img {
   width: 210px;
   height: 200px;
