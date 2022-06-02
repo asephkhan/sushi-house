@@ -28,6 +28,7 @@ nav {
 .left-menu {
   display: flex;
   list-style: none;
+  padding-left: 48px;
 }
 
 .left-menu li {
@@ -49,6 +50,7 @@ nav {
 
 .logo h1 {
   font-weight: lighter;
+  padding-right: 75px;
 }
 
 .left-menu a:hover {
@@ -73,8 +75,8 @@ nav {
 }
 
 .hero-left-side {
-  width: 50vw;
-  padding-left: 50px;
+  width: 47vw;
+  padding-left: 75px;
 }
 
 .hero-img-1 {
@@ -144,12 +146,13 @@ nav {
 
 #about {
   height: 600px;
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
 }
 .carousel-container {
-  height: 78%;
+  height: 70%;
   overflow-x: hidden;
+  align-items: center;
 }
 
 .carousel-slide {
@@ -166,24 +169,27 @@ nav {
 
 .carousel-container-header {
   text-align: center;
+  padding-top: 15px;
+  
 }
 
 .about-card {
   display: flex;
+  padding-top: 20px;
   align-items: center;
   height: 100%;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
 }
 .about-img {
-  width: 300px;
-  height: 450px;
+  width: 270px;
+  height: 400px;
 }
 .about-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35vw;
+  width: 30vw;
   padding: 0 120px;
   justify-content: center;
   opacity: 0.8;
@@ -200,10 +206,11 @@ nav {
 }
 
 .carousel-button {
-  transform: translateX(35vw);
+  transform: translateX(30vw);
 }
 
 #prev-btn {
+  margin-top: 15px;
   border: none;
   color: black;
   background-color: #ffff;
@@ -224,7 +231,7 @@ nav {
 #menu h1 {
   color: #ffff;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px ;
 }
 .menu-buttons {
   text-align: center;
@@ -368,7 +375,13 @@ footer div {
   padding-top: 3px;
 }
 
+
+
 a {
   color: white;
   text-decoration: none;
+}
+
+.footer ul li a:hover{
+  color: rgb(100, 0, 0);
 }
