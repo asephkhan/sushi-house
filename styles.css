@@ -22,6 +22,7 @@ nav {
   position: fixed;
   inset: 0 0 auto;
   align-items: center;
+  z-index: 100;
 }
 
 .left-menu {
@@ -129,7 +130,7 @@ nav {
   height: 50px;
   margin-top: 20px;
   border-radius: 30px;
-  background-color: #414141;
+  background-color: black;
   border: 1px solid rgb(100, 0, 0);
   color: rgb(100, 0, 0);
 }
@@ -145,29 +146,23 @@ nav {
   height: 600px;
   width: 70%;
   margin: 0 auto;
-  
 }
 .carousel-container {
- 
-padding-top: 20px ;
-height: 80%;
-overflow-x: hidden;
-
+  padding-top: 20px;
+  height: 80%;
+  overflow-x: hidden;
 }
 
-.carousel-slide{
+.carousel-slide {
   position: absolute;
- 
 }
 
-.carousel-track{
+.carousel-track {
   padding: 0;
   margin: 0;
   list-style: none;
   position: relative;
   transition: transform 250ms ease-in;
-  
-
 }
 
 .about-card {
@@ -201,26 +196,25 @@ overflow-x: hidden;
   color: rgb(0, 0, 0);
 }
 
-.carousel-button{
+.carousel-button {
   transform: translateX(35vw);
 }
 
-#prev-btn{
+#prev-btn {
   margin-top: 20px;
 }
 
-
-
 /* menu section starts */
-#menu{
+#menu {
   background-color: black;
 }
-
-.menu-buttons{
- /*  display: flex;
-  justify-content: center;
- */
-text-align: center;
+#menu h1{
+  color: #ffff;
+  text-align: center;
+  padding: 20px 0;
+}
+.menu-buttons {
+  text-align: center;
 }
 
 .menu-container {
@@ -230,30 +224,66 @@ text-align: center;
   color: white;
 }
 
-.menu-starter{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
- 
-  color: white;
-}
-
 .menu-card {
-  height: 300px;
+  height: 350px;
   width: 220px;
-
   text-align: center;
   margin: 30px 50px;
+  border: 2px solid rgb(100, 0, 0);
+  border-radius: 5px;
+  
 }
+
 .menu-card-img {
-  width: 180px;
+  width: 210px;
   height: 200px;
+  margin-top: 5px;
+  border-radius: 5px;
 }
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.menu-card-discription{
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: #aaaaaa;
+  
+}
+
+.menu-buttons button{
+  margin-top: 5px;
+  color: #ffff;
+  background-color: black;
+  border: 1px solid rgb(100, 0, 0);
+  height: 30px;
+  margin: 10px;
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.menu-buttons button:hover{
+  background-color: rgb(100, 0, 0);
+}
+
+
 
 /* contact section starts */
-
 #contact {
-  height: 75vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#contact h1{
+  padding: 30px 0;
+}
+
+.contact {
+  height: 60vh;
   background-color: black;
   color: white;
   text-align: center;
@@ -261,10 +291,57 @@ text-align: center;
   justify-content: space-around;
 }
 
-
-
 .contact-form {
   color: white;
+  width: 350px;
+  
+  
+}
+
+form input{
+  background-color:  black;
+  border-bottom : 2px solid rgb(100, 0, 0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  opacity: 0.7;
+  color: #ffff;
+  padding-top: 5px;
+  
+}
+
+form textarea {
+  background-color: black;
+  border : 1px solid rgb(100, 0, 0);
+  border-radius: 5px;
+  color: #ffff;
+  padding-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-submit-button{
+  margin-top: 5px;
+  color: #ffff;
+  background-color: black;
+  border: 1px solid rgb(100, 0, 0);
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-submit-button:hover{
+  background-color: rgb(100, 0, 0); 
+
+}
+
+
+
+.map-image{
+  height: 380px;
 }
 
 /* footer starts */
