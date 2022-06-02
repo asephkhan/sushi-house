@@ -212,12 +212,29 @@ overflow-x: hidden;
 
 
 /* menu section starts */
+#menu{
+  background-color: black;
+}
 
-#menu {
+.menu-buttons{
+ /*  display: flex;
+  justify-content: center;
+ */
+text-align: center;
+}
+
+.menu-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: black;
+  color: white;
+}
+
+.menu-starter{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
   color: white;
 }
 
@@ -244,8 +261,7 @@ overflow-x: hidden;
   justify-content: space-around;
 }
 
-.map-image {
-}
+
 
 .contact-form {
   color: white;
