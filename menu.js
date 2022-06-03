@@ -14,10 +14,10 @@ const menuDataArray = Array.from(menuData.children);
 
 /* console.log(menuDataArray) */
 
-const hide = (elements) => {
+/* const hide = (elements) => {
   elements = elements.length ? elements : [elements];
   for (let i = 0; i < elements.length; i++) {
-    elements[i].style.display = "none";
+    elements[i].style.visibilty = "hidden";
   }
 };
 
@@ -26,9 +26,20 @@ const hide = (elements) => {
   
   for (let i = 0; i < elements.length; i++) {
       
-    elements[i].style.display = 'flex'
+    elements[i].style.visibilty = 'visible'
+
   }
-}; 
+};  */
+
+
+function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.visibility === 'hidden') {
+    x.style.visibility = 'visible';
+  } else {
+    x.style.visibility = 'hidden';
+  }
+}
 
 // window on load show the main dishes menu
 
@@ -42,7 +53,14 @@ window.onload = () =>{
 // starter button event listner
 
 starterBtutton.addEventListener("click", (e) => {
-  show(menuDataArray);
+  function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.visibility === 'hidden') {
+      x.style.visibility = 'visible';
+    } else {
+      x.style.visibility = 'hidden';
+    }
+  }
   hide(mainDishMenuData);
   hide(dessertMenuData);
 });
