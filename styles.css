@@ -15,7 +15,7 @@ nav {
   width: 100vw;
   height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
   color: white;
   border: 1px solid white;
@@ -25,27 +25,28 @@ nav {
   z-index: 100;
 }
 
-.left-menu {
+.nav-links {
   display: flex;
   list-style: none;
   padding-left: 48px;
+  
 }
 
-.left-menu li {
+.nav-links li {
   padding: 30px;
+ 
 }
 
-.right-menu {
-  display: flex;
-  list-style: none;
+.nav-links a:hover {
+  color: rgb(100, 0, 0);
 }
 
-.right-menu li {
-  padding: 30px;
-}
+
+
+
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.485rem;
 }
 
 .logo h1 {
@@ -53,13 +54,7 @@ nav {
   padding-right: 75px;
 }
 
-.left-menu a:hover {
-  color: rgb(100, 0, 0);
-}
 
-.right-menu a:hover {
-  color: rgb(100, 0, 0);
-}
 
 /* burger menu nav */
 
@@ -86,13 +81,13 @@ nav {
   .nav-links {
       position: absolute;
       right: 0px;
-      height: 92vh;
-      top: 8vh;
+      height: 90vh;
+      top: 10vh;
       background-color: black;
       color: #ffff;
       display: flex;
       flex-direction: column;
-      width: 50%;
+      width: 100%;
       align-items: center;
       transform: translateX(100%);
       transition: transform 0.5s ease-in;
@@ -101,8 +96,6 @@ nav {
   .nav-links li {
       opacity: 0;
   }
-
-  
 
   .burger{
       display: block;
@@ -479,12 +472,30 @@ a {
   }
 
   #section-hero{
-    margin-top: 10vh;
+   margin-top: 0; 
+
     height: 100vh;
   }
+  main{
+    width: 100vw;
+  }
 
-  .hero-left-side h1{
+  .hero-left-side h4{
     font-size: 2.5rem;
   }
 
+ /*  width: 47vw;
+  padding-left: 75px; */
+
+  .hero-left-side{
+   width: 100%;
+   padding: 0 40px;
+ 
+  }
+
+  .navbar{
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 100;
+  }
 }
