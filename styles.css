@@ -4,21 +4,25 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  
 }
 main {
   border: 1px solid white;
+ 
+  
 }
 
 /* Navbar */
 
 nav {
-  width: 100vw;
+  
   height: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: black;
   color: white;
   border: 1px solid white;
+  padding: 0 3.5rem  ;
   position: fixed;
   inset: 0 0 auto;
   align-items: center;
@@ -28,11 +32,11 @@ nav {
 .nav-links {
   display: flex;
   list-style: none;
-  padding-left: 48px;
+  
 }
 
 .nav-links li {
-  padding: 30px;
+  padding: 2rem;
 }
 
 .nav-links a:hover {
@@ -45,7 +49,7 @@ nav {
 
 .logo h1 {
   font-weight: lighter;
-  padding-right: 75px;
+ 
 }
 
 /* burger menu nav */
@@ -73,13 +77,14 @@ nav {
   .nav-links {
     position: absolute;
     right: 0px;
+    top: 1rem;
     height: 90vh;
-    top: 10vh;
+   
     background-color: black;
     color: #ffff;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%; 
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
@@ -124,68 +129,71 @@ nav {
 
 /* hero Section starts */
 #section-hero {
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-  margin-top: 10vh;
+  height: 84vh;
+ /*  margin-top: 10vh; */
   background-color: black;
   color: white;
   display: flex;
-  align-items: center;
-  overflow-x: hidden;
+  flex-wrap: wrap;  
+  padding: 3.5rem;
+  
 }
 
-.hero-left-side {
-  width: 47vw;
-  padding-left: 75px;
+  .hero-left-side {
+  width: 50vw;
+  padding-top: 12rem;
+  ;
+  
+}  
+
+.hero-right-side{
+  
 }
 
 .hero-img-1 {
-  width: 200px;
-  height: 200px;
+  width: 11rem;
+  height: 11rem;
   border-radius: 50%;
-  position: relative;
-  margin-bottom: 200px;
+ 
+   
+  
 }
 
 .hero-img-2 {
-  width: 200px;
-  height: 200px;
+  width: 11rem;
+  height: 11rem;
   border-radius: 50%;
-  position: relative;
+  margin-bottom: 15rem;
+  margin-top: 2rem;
+  
+
 }
 
 .hero-img-3 {
-  width: 200px;
-  height: 200px;
+  width: 11rem;
+  height: 11rem;
   border-radius: 50%;
-  position: absolute;
+  
 }
 
-.hero-left-side h1 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 6rem;
-  color: #fbfbfb;
-}
 
 .hero-left-side h4 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 51px;
+  font-size: 3.1rem;
+  line-height: 3.4rem;
   color: #aaaaaa;
 }
 
 .hero-left-side p {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  /* font-style: lighter; */
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #aaaaaa;
+  
 }
 
 .hero-left-side button {
@@ -369,17 +377,21 @@ h4 {
 }
 
 .contact {
-  height: 60vh;
+  /* height: 60vh; */
   background-color: black;
   color: white;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 3.5rem;
 }
 
 .contact-form {
   color: white;
-  width: 350px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 form input {
@@ -405,6 +417,7 @@ form {
   display: flex;
   flex-direction: column;
   text-align: left;
+  width: 100%;
 }
 
 .form-submit-button {
@@ -421,15 +434,18 @@ form {
 }
 
 .map-image {
-  height: 380px;
+  height: 100%;
+  width: 100%;
   border-radius: 5px;
+  
 }
 
 /* footer starts */
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 3.5rem;
   color: white;
   background-color: black;
   text-decoration: none;
@@ -449,69 +465,39 @@ footer div {
 a {
   color: white;
   text-decoration: none;
+  
 }
 
 .footer ul li a:hover {
   color: rgb(100, 0, 0);
 }
 
-@media screen and (max-width: 768px) {
-  /*  Hero section starts */
+
+/* media queries */
+
+@media screen and (max-width: 1100px) {
+ 
   .hero-right-side img {
     display: none;
   }
 
-  #section-hero {
-    margin-top: 0;
-
-    height: 100vh;
-  }
-  main {
-    width: 100vw;
-  }
-
-  .hero-left-side h4 {
-    font-size: 2.5rem;
-  }
-
-  .hero-left-side {
-    width: 100%;
-    padding: 0 40px;
-  }
-
-  .navbar {
-    position: fixed;
-    inset: 0 0 auto;
-    z-index: 100;
-  }
-
-  /*  about section starts here */
-  #about {
-    width: 100vw;
-    height: 1200px;
-    padding-top: 100px;
-  }
-
-  .about-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .about-card img {
-    padding-right: 100px;
-  }
-
-  .about-info {
-    width: 80vw;
-    padding-left: 40px;
-    margin: 0;
-    text-align: center;
-  }
-
-  /* menu section starts here */
-  .menu-container {
-    display: inline-block;
-    
-  }
 }
+
+@media screen and (max-width: 900px) {
+  .hero-left-side {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+   
+  }
+
+  a {
+    font-size: 00.8rem;
+  }
+
+
+}
+
+
