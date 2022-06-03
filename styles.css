@@ -44,7 +44,7 @@ nav {
 }
 
 .logo {
-  font-size: 1.485rem;
+  font-size: 1.5rem;
 }
 
 .logo h1 {
@@ -97,6 +97,10 @@ nav {
   .burger {
     display: block;
     cursor: pointer;
+  }
+
+  .logo{
+    font-size: 1rem;
   }
 }
 
@@ -496,6 +500,8 @@ a {
   a {
     font-size: 00.8rem;
   }
+
+
 
 
 }
