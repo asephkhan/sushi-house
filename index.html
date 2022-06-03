@@ -415,15 +415,15 @@
         <h1>Contact</h1>
         <div class="contact">
           <div class="contact-form">
-            <form action="submit">
+            <form action="https://formsubmit.co/asephkhan@gmail.com" method="POST">
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="name" name="name" required/>
 
               <label for="email">Email</label>
-              <input type="text" id="email" name="email" />
+              <input type="email" id="email" name="email" required />
 
               <label for="message">message</label>
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
+              <textarea name="message" id="" cols="30" rows="10" required placeholder="please, type your message here!"></textarea>
 
               <button class="form-submit-button">Submit</button>
             </form>
