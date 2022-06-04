@@ -129,7 +129,7 @@ nav {
 
 /* hero Section starts */
 #section-hero {
-  height: 84vh;
+  height: 90vh;
   background-color: black;
   color: white;
   display: flex;
@@ -456,7 +456,7 @@ footer ul li {
 
 footer ul img{
   height: 1.5rem;
-  
+
   
   
 }
