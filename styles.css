@@ -193,11 +193,10 @@ nav {
 }
 
 .hero-left-side button:hover {
-
   background-color: white;
 }
 
-.hero-left-side a:hover{
+.hero-left-side a:hover {
   color: #000000;
 }
 .contact-button {
@@ -485,71 +484,61 @@ a {
     letter-spacing: 2px;
   }
 
-  .hero-left-side p{
+  .hero-left-side p {
     font-size: 0.8rem;
     letter-spacing: 2px;
   }
 
-  .hero-left-side button{
+  .hero-left-side button {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .hero-left-side button a{
+  .hero-left-side button a {
     font-size: 1rem;
   }
 
   /* about section */
 
-  #about{
+  #about {
     width: 100vw;
   }
   .carousel-container {
     height: 70%;
-  
     overflow-x: hidden;
     overflow-y: hidden;
-    
     width: 100%;
-   
-   
-    
   }
 
-  .about-card{
-    height: 40vh;
+  .about-card {
+    height: 50vh;
     width: 100vw;
-    padding: 1rem;
+    padding: 0 0.5rem;
     align-items: center;
-     justify-content: space-between; 
-   
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
   }
-  .about-img{
+  .about-img {
     height: 15rem;
     width: 10rem;
     border-radius: 0;
     padding-top: 4rem;
-
   }
 
-  .about-info{
-     width: 50vw; 
+  .about-info {
+    width: 50vw;
     padding: 5px;
-   
   }
 
-  .about-info-header{
-    padding-right: 78px;
+  .about-info-header {
+    padding-right: 200px;
   }
 
-  .about-info-text{
+  .about-info-text {
     height: 16rem;
     font-size: 0.7rem;
     letter-spacing: 0.5px;
     color: #000000;
-    
   }
-
-
 }
