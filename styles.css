@@ -210,7 +210,7 @@ nav {
 /* about section starts */
 
 #about {
-  height: 600px;
+  height: 90vh;
   width: 65%;
   margin: 0 auto;
 }
@@ -502,4 +502,53 @@ a {
   .hero-left-side button a{
     font-size: 1rem;
   }
+
+  /* about section */
+
+  #about{
+    width: 100vw;
+  }
+  .carousel-container {
+    height: 70%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    width: 100%;
+   
+   
+    
+  }
+
+  .about-card{
+    height: 60vh;
+    width: 100vw;
+    padding: 1rem;
+    align-items: center;
+     justify-content: center; 
+   
+  }
+  .about-img{
+    height: 18rem;
+    width: 15rem;
+    border-radius: 0;
+    padding-top: 12rem;
+
+  }
+
+  .about-info{
+    width: 50vw;
+    padding: 10px;
+   
+  }
+
+  .about-info-header{
+    padding-right: 78px;
+  }
+
+  .about-info-text{
+    height: 16rem;
+   
+  }
+
+
 }
