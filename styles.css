@@ -389,12 +389,13 @@ h4 {
 
 .contact-form {
   color: white;
-  width: 500px;
+  width: 500px; 
   display: flex;
   flex-wrap: wrap;
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 3px;
+  padding: 0 2.5rem;
 }
 
 form input {
