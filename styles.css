@@ -507,10 +507,10 @@ a {
   }
 
   .hero-left-side h4 {
-    font-size: 3.rem;
+    font-size: 3rem;
     font-weight: bolder;
     letter-spacing: 1px;
-    line-height: 3.1rem;
+    line-height: 2.5rem;
   }
 
   .hero-left-side p {
