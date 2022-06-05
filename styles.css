@@ -42,7 +42,7 @@ nav {
   font-size: 1.5rem;
 }
 
-.logo h1 {
+ h1 {
   font-weight: lighter;
   letter-spacing: 4px;
 }
@@ -73,16 +73,19 @@ nav {
     position: absolute;
     right: 0px;
     top: 10vh;
-    height: 80vh;
+    height: 90vh;
     border: 1px solid #ffff;
     background-color: black;
     color: #ffff;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 75%;
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
   .nav-links li {
@@ -287,7 +290,7 @@ nav {
 /* menu section starts */
 #menu {
   background-color: black;
-  padding: 2.5rem;
+  
 }
 #menu h1 {
   color: #ffff;
@@ -345,7 +348,7 @@ h4 {
   color: #ffff;
   background-color: black;
   border: 1px solid white;
-  
+  letter-spacing: 2px;
   width: 6rem;
   height: 40px;
   
@@ -488,7 +491,7 @@ a {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
     padding-top: 3rem;
   }
 
