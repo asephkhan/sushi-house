@@ -36,7 +36,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: rgb(100, 0, 0);
+  border-bottom: 2px solid white;
 }
 
 .logo {
@@ -340,6 +340,12 @@ h4 {
   color: #aaaaaa;
 }
 
+.menu-card-price {
+  color: #aaaaaa;
+  font-size: 0.5;
+  padding-top: 2px;
+}
+
 .menu-buttons {
   display: flex;
   justify-content: space-around;
@@ -596,7 +602,8 @@ a {
   }
 
   .menu-card-price {
-    color: white;
+    color: #aaaaaa;
+    font-size: 0.5;
     padding-top: 2px;
   }
 
