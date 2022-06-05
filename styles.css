@@ -395,7 +395,7 @@ h4 {
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 3px;
-  padding: 0 2.5rem;
+  
 }
 
 form input {
@@ -546,7 +546,7 @@ a {
 
   .about-card {
     width: 100vw;
-    /* padding: 0 0.5rem; */
+   
     align-items: center;
 
     background-color: rgb(243, 243, 243);
