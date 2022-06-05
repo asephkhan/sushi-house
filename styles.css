@@ -184,7 +184,6 @@ nav {
   width: 120px;
   height: 50px;
   margin-top: 20px;
-  /* border-radius: 5px; */
   background-color: black;
   border: 1px solid white;
   color: white;
@@ -288,6 +287,7 @@ nav {
 /* menu section starts */
 #menu {
   background-color: black;
+  padding: 2.5rem;
 }
 #menu h1 {
   color: #ffff;
@@ -306,24 +306,21 @@ nav {
 }
 
 .menu-card {
-  height: 350px;
-  width: 220px;
+  height: 21rem;
+  width: 13.75rem;
   text-align: center;
-  margin: 30px 50px;
-  border: 2px solid rgb(100, 0, 0);
-  border-radius: 5px;
+  margin: 1.875rem 1.875rem;
+  border: 2px solid white ;
+ 
 }
 
-.menu-card:hover {
-  background-color: rgb(100, 0, 0);
-  /*  opacity: 0.7; */
-}
+
 
 .menu-card-img {
-  width: 210px;
-  height: 200px;
-  margin-top: 5px;
-  border-radius: 5px;
+  width: 13.25em;
+  height: 12.5em;
+  margin-top: 0.3em;
+ 
 }
 
 h4 {
@@ -337,20 +334,26 @@ h4 {
   color: #aaaaaa;
 }
 
+.menu-buttons{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
 .menu-buttons button {
-  margin-top: 5px;
+
   color: #ffff;
   background-color: black;
-  border: 1px solid rgb(100, 0, 0);
-  height: 30px;
-  margin: 10px;
-  width: 90px;
+  border: 1px solid white;
+  
+  width: 6rem;
   height: 40px;
-  border-radius: 5px;
+  
 }
 
 .menu-buttons button:hover {
-  background-color: rgb(100, 0, 0);
+  background-color: white;
+  color: #000000;
 }
 
 /* contact section starts */

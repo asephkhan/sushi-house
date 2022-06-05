@@ -12,12 +12,12 @@ const menuDataArray = Array.from(menuData.children);
  const mainDishMenuData = menuDataArray[1];
  const dessertMenuData = menuDataArray[2]; 
 
-/* console.log(menuDataArray) */
+ console.log(menuDataArray) 
 
-/* const hide = (elements) => {
+ const hide = (elements) => {
   elements = elements.length ? elements : [elements];
   for (let i = 0; i < elements.length; i++) {
-    elements[i].style.visibilty = "hidden";
+    elements[i].style.display = "none";
   }
 };
 
@@ -26,10 +26,10 @@ const menuDataArray = Array.from(menuData.children);
   
   for (let i = 0; i < elements.length; i++) {
       
-    elements[i].style.visibilty = 'visible'
+    elements[i].style.display = 'inline'
 
   }
-};  */
+};  
 
 
 function myFunction() {
@@ -61,6 +61,7 @@ starterBtutton.addEventListener("click", (e) => {
       x.style.visibility = 'hidden';
     }
   }
+  show(starterMenuData);
   hide(mainDishMenuData);
   hide(dessertMenuData);
 });
