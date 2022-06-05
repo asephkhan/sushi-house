@@ -142,7 +142,7 @@ nav {
   color: white;
   display: flex;
   flex-wrap: wrap;
-  padding: 4.5rem 2.5rem 2.5rem 2.5rem ;
+  padding: 4rem 2.5rem 0 2.5rem ;
 }
 
 .hero-left-side {
@@ -523,6 +523,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 7rem;
   }
 
   .hero-left-side button a {
