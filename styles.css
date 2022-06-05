@@ -44,8 +44,10 @@ nav {
 }
 
 h1 {
+  font-size: 1.5;
   font-weight: lighter;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 /* burger menu nav */
@@ -66,8 +68,6 @@ h1 {
   /*  body {
     overflow-x: hidden;
   } */
-
-  /*   burger nav */
 
   .nav-links {
     position: absolute;
@@ -94,7 +94,6 @@ h1 {
 
   .burger {
     display: block;
-
     cursor: pointer;
   }
 
@@ -130,6 +129,10 @@ h1 {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+nav {
+  padding: 0 2.5rem;
 }
 
 /* hero Section starts */
@@ -305,15 +308,10 @@ h1 {
   padding: 20px;
 }
 
-.menu-buttons {
-  text-align: center;
-}
-
-.menu-container {
+.menu-card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  color: white;
 }
 
 .menu-card {
@@ -333,6 +331,7 @@ h1 {
 h4 {
   font-size: 1.5rem;
   font-weight: lighter;
+  color: white;
 }
 
 .menu-card-discription {
@@ -343,7 +342,7 @@ h4 {
 
 .menu-buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .menu-buttons button {
@@ -379,6 +378,7 @@ h4 {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 2.5rem;
+  align-items: center;
 }
 
 .contact-form {
@@ -386,23 +386,33 @@ h4 {
   width: 500px;
   display: flex;
   flex-wrap: wrap;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
 }
 
 form input {
   background-color: black;
-  border: 2px solid #ffff;
-  opacity: 0.7;
+  border: 1px solid #ffff;
+  height: 27px;
   color: #ffff;
   padding-top: 5px;
   border-radius: 0;
 }
 
+form label {
+  padding-top: 5px;
+  
+}
+
 form textarea {
   background-color: black;
-  border: 2px solid #ffff;
+  border: 1px solid #ffff;
   border-radius: 0;
   color: #ffff;
   padding-top: 10px;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
 }
 
 form {
@@ -416,8 +426,11 @@ form {
   margin: 0.8rem 0;
   color: #ffff;
   background-color: black;
-  border: 2px solid #ffff;
-  height: 30px;
+  border: 1px solid #ffff;
+  height: 39px;
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .form-submit-button:hover {
@@ -426,9 +439,8 @@ form {
 }
 
 .map-image {
-  height: 100%;
-  width: 100%;
-  border-radius: 5px;
+  height: 56vh;
+  margin-top: 1rem;
 }
 
 /* footer starts */
@@ -455,11 +467,11 @@ footer ul li {
   text-decoration: none;
   line-height: 1rem;
   letter-spacing: 2px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 footer ul img {
-  height: 1.5rem;
+  height: 1.8rem;
 }
 
 a {
@@ -480,17 +492,19 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  /* hero section for mobile */
   .hero-left-side {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-
     padding-top: 3rem;
   }
 
   .hero-left-side h4 {
-    font-size: 2rem;
-    letter-spacing: 2px;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 3.1rem;
   }
 
   .hero-left-side p {
@@ -512,13 +526,8 @@ a {
 
   #about {
     width: 100vw;
-
-    /*  background-color: black; */
   }
 
-  /* .carousel-container-header {
-    color: white;
-  } */
   .carousel-container {
     height: 70%;
     overflow-x: hidden;
@@ -528,9 +537,9 @@ a {
 
   .about-card {
     width: 100vw;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
     align-items: center;
-    justify-content: space-between;
+
     background-color: rgb(243, 243, 243);
   }
 
@@ -555,6 +564,7 @@ a {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
     color: #000000;
+    padding-left: 0.3rem;
   }
 
   #prev-btn {
@@ -565,13 +575,55 @@ a {
     transform: translateX(45vw);
   }
 
-/* menu section for mobile */
+  /* menu section for mobile */
 
-.menu-card{
-  width: 100%;
-  margin: 1rem 0;
-  display: flex;
-  
-}
+  #menu {
+    padding: 0 0.5rem;
+  }
+  .menu-card {
+    height: 15.5rem;
+    width: 9.3rem;
+    text-align: center;
+    margin: none;
+    border: 1px solid white;
+    margin: 0.8rem;
+  }
 
+  .menu-card-img {
+    width: 95%;
+    height: 8em;
+    margin-top: 0.2em;
+  }
+
+  .menu-card-price {
+    color: white;
+    padding-top: 2px;
+  }
+
+  .menu-card h4 {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+
+  .menu-card-discription {
+    font-size: 0.7rem;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+  }
+
+  .menu-buttons {
+    justify-content: space-between;
+    padding: 0 0.8rem;
+  }
+
+  /* contact section for mobile */
+
+  .contact {
+    padding: 0 2.5rem;
+  }
+
+  .map {
+    display: none;
+  }
 }
