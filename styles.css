@@ -192,20 +192,22 @@ nav {
   width: 120px;
   height: 50px;
   margin-top: 20px;
-  background-color: black;
+  background-color: rgb(216, 216, 216);
   border: 1px solid white;
-  color: white;
-  font-size: 1.2rem;
-  letter-spacing: 3px;
+  color: black;
+  letter-spacing: 2px;
+  display: contents;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-left-side button:hover {
-  background-color: white;
-}
 
-.hero-left-side a:hover {
+
+.hero-left-side a {
   color: #000000;
+
 }
+
 
 .contact-button {
   margin-left: 10px;
@@ -507,10 +509,10 @@ a {
   }
 
   .hero-left-side h4 {
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-weight: bolder;
     letter-spacing: 1px;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
   }
 
   .hero-left-side p {
