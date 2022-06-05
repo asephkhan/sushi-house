@@ -26,20 +26,11 @@ const menuDataArray = Array.from(menuData.children);
   
   for (let i = 0; i < elements.length; i++) {
       
-    elements[i].style.display = 'inline'
+    elements[i].style.display = 'block'
 
   }
 };  
 
-
-function myFunction() {
-  var x = document.getElementById('myDIV');
-  if (x.style.visibility === 'hidden') {
-    x.style.visibility = 'visible';
-  } else {
-    x.style.visibility = 'hidden';
-  }
-}
 
 // window on load show the main dishes menu
 
