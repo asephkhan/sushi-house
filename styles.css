@@ -42,7 +42,7 @@ nav {
   font-size: 1.5rem;
 }
 
- h1 {
+h1 {
   font-weight: lighter;
   letter-spacing: 4px;
 }
@@ -215,6 +215,7 @@ nav {
 .carousel-container {
   height: 70%;
   overflow-x: hidden;
+  overflow-y: hidden;
   align-items: center;
 }
 
@@ -246,7 +247,6 @@ nav {
 .about-img {
   width: 270px;
   height: 400px;
-  border-radius: 5px;
 }
 .about-info {
   display: flex;
@@ -269,7 +269,7 @@ nav {
 }
 
 .carousel-button {
-  transform: translateX(45vw);
+  transform: translateX(35vw);
 }
 
 #prev-btn {
@@ -290,7 +290,6 @@ nav {
 /* menu section starts */
 #menu {
   background-color: black;
-  
 }
 #menu h1 {
   color: #ffff;
@@ -313,17 +312,13 @@ nav {
   width: 13.75rem;
   text-align: center;
   margin: 1.875rem 1.875rem;
-  border: 2px solid white ;
- 
+  border: 2px solid white;
 }
-
-
 
 .menu-card-img {
   width: 13.25em;
   height: 12.5em;
   margin-top: 0.3em;
- 
 }
 
 h4 {
@@ -337,21 +332,18 @@ h4 {
   color: #aaaaaa;
 }
 
-.menu-buttons{
+.menu-buttons {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .menu-buttons button {
-
   color: #ffff;
   background-color: black;
   border: 1px solid white;
   letter-spacing: 2px;
   width: 6rem;
   height: 40px;
-  
 }
 
 .menu-buttons button:hover {
@@ -417,13 +409,11 @@ form {
   background-color: black;
   border: 2px solid #ffff;
   height: 30px;
-  
- 
 }
 
 .form-submit-button:hover {
- color: #ffff;
- border: 2px solid #ffff;
+  color: #ffff;
+  border: 2px solid #ffff;
 }
 
 .map-image {
@@ -445,28 +435,22 @@ footer {
   height: 5vh;
 }
 
-footer ul{
+footer ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 footer ul li {
-  
   list-style: none;
   text-decoration: none;
   line-height: 1rem;
   letter-spacing: 2px;
   font-size: 0.7rem;
-
- 
 }
 
-footer ul img{
+footer ul img {
   height: 1.5rem;
-
-  
-  
 }
 
 a {
@@ -491,11 +475,9 @@ a {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    
+
     padding-top: 3rem;
   }
-
- 
 
   .hero-left-side h4 {
     font-size: 2rem;
@@ -521,7 +503,12 @@ a {
 
   #about {
     width: 100vw;
+    
+   /*  background-color: black; */
   }
+  /* .carousel-container-header {
+    color: white;
+  } */
   .carousel-container {
     height: 70%;
     overflow-x: hidden;
@@ -530,18 +517,18 @@ a {
   }
 
   .about-card {
-    height: 60vh;
+   /*  height: 60vh; */
     width: 100vw;
     padding: 0 0.5rem;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
   }
   .about-img {
     height: 15rem;
     width: 10rem;
     border-radius: 0;
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .about-info {
@@ -559,6 +546,18 @@ a {
     letter-spacing: 0.5px;
     color: #000000;
   }
+  #prev-btn {
+    /* color: white;
+    background-color: black; */
+    margin-top: none;
+  }
 
+  #next-btn {
+   /*  color: white;
+    background-color: black; */
+  }
 
+  .carousel-button {
+    transform: translateX(45vw);
+  }
 }
