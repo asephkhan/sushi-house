@@ -385,7 +385,7 @@ h4 {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 2.5rem;
-  align-items: center;
+ 
 }
 
 .contact-form {
@@ -628,9 +628,9 @@ a {
 
   /* contact section for mobile */
 
-  .contact {
+ /*  .contact {
     padding: 0 2.5rem;
-  }
+  } */
 
   .map {
     display: none;
