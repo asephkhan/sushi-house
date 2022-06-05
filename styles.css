@@ -500,6 +500,10 @@ a {
 
 @media screen and (max-width: 768px) {
   /* hero section for mobile */
+
+  body{
+    overflow-x: hidden;
+  }
   .hero-left-side {
     width: 100vw;
     display: flex;
