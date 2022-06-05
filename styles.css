@@ -387,11 +387,13 @@ form input {
   opacity: 0.7;
   color: #ffff;
   padding-top: 5px;
+  border-radius: 0;
 }
 
 form textarea {
   background-color: black;
   border: 2px solid #ffff;
+  border-radius: 0;
   color: #ffff;
   padding-top: 10px;
 }
@@ -414,7 +416,7 @@ form {
 }
 
 .form-submit-button:hover {
-  color: #ffff;
+ color: #ffff;
  border: 2px solid #ffff;
 }
 
@@ -460,8 +462,6 @@ footer ul img{
   
   
 }
-
-
 
 a {
   color: white;
@@ -555,14 +555,4 @@ a {
   }
 
 
-  /* footer section */
-
-  /* footer {
-    height: 5vh;
-  }
-
-  .footer ul li {
-    font-size: 0.5rem;
-    letter-spacing: 1px;
-  } */
 }
