@@ -507,7 +507,7 @@ a {
   }
 
   .hero-left-side h4 {
-    font-size: 3.2rem;
+    font-size: 3.rem;
     font-weight: bolder;
     letter-spacing: 1px;
     line-height: 3.1rem;
@@ -515,7 +515,8 @@ a {
 
   .hero-left-side p {
     font-size: 0.8rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 15px;
   }
 
   .hero-left-side button {
