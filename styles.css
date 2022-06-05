@@ -509,15 +509,15 @@ a {
   }
 
   .hero-left-side h4 {
-    font-size: 2.9rem;
+    font-size: 3.2rem;
     font-weight: bolder;
     letter-spacing: 1px;
-    line-height: 2.3rem;
+    line-height: 2.9rem;
   }
 
   .hero-left-side p {
     font-size: 0.8rem;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     line-height: 15px;
   }
 
