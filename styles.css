@@ -83,7 +83,7 @@ h1 {
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
