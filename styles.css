@@ -169,16 +169,16 @@ nav {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3.1rem;
+  font-size: 3rem;
   line-height: 3.4rem;
-  color: #aaaaaa;
+  letter-spacing: 3px;
 }
 
 .hero-left-side p {
   font-family: "Poppins", sans-serif;
   /* font-style: lighter; */
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   color: #aaaaaa;
 }
