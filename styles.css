@@ -142,7 +142,7 @@ nav {
   color: white;
   display: flex;
   flex-wrap: wrap;
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 1.5rem ;
 }
 
 .hero-left-side {
@@ -176,7 +176,7 @@ nav {
   font-weight: 400;
   font-size: 3rem;
   line-height: 3.4rem;
-  letter-spacing: 3px;
+   letter-spacing: 2px; 
 }
 
 .hero-left-side p {
@@ -189,13 +189,13 @@ nav {
 }
 
 .hero-left-side button {
-  width: 120px;
-  height: 50px;
+  width: 90px;
+  height: 40px;
   margin-top: 20px;
   background-color: rgb(216, 216, 216);
   border: 1px solid white;
   color: black;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   
 }
 
@@ -507,10 +507,10 @@ a {
   }
 
   .hero-left-side h4 {
-    font-size: 3.2rem;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    line-height: 2.9rem;
+    font-size: 3rem;
+    font-weight: bolder; 
+     line-height: 2.8rem;
+    
   }
 
   .hero-left-side p {
