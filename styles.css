@@ -142,7 +142,7 @@ nav {
   color: white;
   display: flex;
   flex-wrap: wrap;
-  padding: 3rem 2.5rem 0 2.5rem ;
+  padding: 2.5rem ;
 }
 
 .hero-left-side {
@@ -174,23 +174,23 @@ nav {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 3.4rem;
-   letter-spacing: 2px; 
+   letter-spacing: 3px; 
 }
 
 .hero-left-side p {
   font-family: "Poppins", sans-serif;
-  /* font-style: lighter; */
+   font-style: lighter; 
   font-weight: 200;
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  
   color: #aaaaaa;
 }
 
 .hero-left-side button {
-  width: 90px;
-  height: 40px;
+  width: 100px;
+  height: 45px;
   margin-top: 20px;
   background-color: rgb(216, 216, 216);
   border: 1px solid white;
@@ -503,19 +503,19 @@ a {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 
   .hero-left-side h4 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: bolder; 
-     line-height: 2.8rem;
+    /* letter-spacing: 2px; */
     
   }
 
   .hero-left-side p {
     font-size: 0.8rem;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.3px;
     line-height: 15px;
   }
 
