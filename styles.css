@@ -178,6 +178,7 @@ nav {
   font-size: 3rem;
   line-height: 3.4rem;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .hero-left-side p {
@@ -198,6 +199,7 @@ nav {
   color: white;
   font-size: 1.2rem;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .hero-left-side button:hover {
@@ -242,6 +244,7 @@ nav {
 .carousel-container-header {
   text-align: center;
   padding-top: 15px;
+  
 }
 
 .about-card {
@@ -276,6 +279,7 @@ nav {
 
 .about-info-header {
   color: rgb(0, 0, 0);
+   text-transform: uppercase; 
 }
 
 .carousel-button {
@@ -321,7 +325,8 @@ nav {
   text-align: center;
   margin: 1.875rem 1.875rem;
   border: 1px solid white;
-  background-color: rgb(179, 176, 176);
+  background-color: rgb(0, 0, 0);
+  
   
 }
 
@@ -332,28 +337,31 @@ nav {
 }
 
 .menu-card h4 {
-  font-size: 1.8rem;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: lighter;
-  color: black;
+  font-size: 1rem;
+  letter-spacing: 2px;
+ font-weight: lighter;
+  color: white;
+  text-transform: uppercase;
   
 }
 
 .menu-card-discription {
   font-size: 0.8rem;
   font-weight: lighter;
-  color: rgb(82, 65, 65);
+  color: #aaaaaa;
 }
 
 .menu-card-price {
-  color: #050505;
+ color: #ffff;
   font-size: 0.5;
   padding-top: 2px;
+  text-transform: uppercase;
 }
 
 .menu-buttons {
   display: flex;
   justify-content: space-around;
+  
 }
 
 .menu-buttons button {
@@ -363,6 +371,7 @@ nav {
   letter-spacing: 2px;
   width: 6rem;
   height: 40px;
+  text-transform: uppercase;
 }
 
 .menu-buttons button:hover {
@@ -465,6 +474,7 @@ footer {
   text-decoration: none;
   border: 1px solid white;
   height: 5vh;
+  text-transform: uppercase;
 }
 
 footer ul {
@@ -609,15 +619,15 @@ a {
   }
 
   .menu-card-price {
-    color: #000000;
+    
     font-size: 0.5;
     padding-top: 2px;
   }
 
   .menu-card h4 {
-    font-weight: lighter;
-    letter-spacing: 1px;
-    font-size: 1.3rem;
+    /* font-weight: lighter; */
+   
+    font-size: 1.2rem;
     font-weight: bolder;
   }
 
