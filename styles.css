@@ -321,6 +321,8 @@ nav {
   text-align: center;
   margin: 1.875rem 1.875rem;
   border: 1px solid white;
+  background-color: rgb(179, 176, 176);
+  
 }
 
 .menu-card-img {
@@ -329,20 +331,22 @@ nav {
   margin-top: 0.3em;
 }
 
-h4 {
-  font-size: 1.5rem;
+.menu-card h4 {
+  font-size: 1.8rem;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: lighter;
-  color: white;
+  color: black;
+  
 }
 
 .menu-card-discription {
   font-size: 0.8rem;
   font-weight: lighter;
-  color: #aaaaaa;
+  color: rgb(82, 65, 65);
 }
 
 .menu-card-price {
-  color: #aaaaaa;
+  color: #050505;
   font-size: 0.5;
   padding-top: 2px;
 }
@@ -503,7 +507,8 @@ a {
   .hero-left-side {
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+   flex-wrap: wrap;
     padding-top: 3rem;
   }
 
@@ -604,7 +609,7 @@ a {
   }
 
   .menu-card-price {
-    color: #aaaaaa;
+    color: #000000;
     font-size: 0.5;
     padding-top: 2px;
   }
@@ -612,13 +617,15 @@ a {
   .menu-card h4 {
     font-weight: lighter;
     letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
   }
 
   .menu-card-discription {
     font-size: 0.7rem;
-    line-height: 15px;
-    letter-spacing: 0.3px;
+  line-height: 14px; 
+color: (82, 65, 65);
+    letter-spacing: 0.1px; 
   }
 
   .menu-buttons {
